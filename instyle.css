@@ -39,3 +39,24 @@ header a:hover{
     font-size: 20px;
     line-height: 1.8em;
 }
+/* 响应式设计语法 */
+@media screen and (max-width:850px){
+    header ul{
+        display: none;
+    }
+    header h1{
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .menu{
+        display: block;
+        background-color: transparent;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        top: 15px;
+        left:20px;
+        border:none;
+        cursor: pointer;
+    }
+}
